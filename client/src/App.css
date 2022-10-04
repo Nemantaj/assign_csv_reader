@@ -1,0 +1,47 @@
+.App {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+}
+
+.file_up_input {
+  display: none;
+}
+
+.table_div {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  display: inline-flex;
+  gap: 10px;
+}
+
+.panel_holder {
+  width: 30%;
+  position: sticky;
+  top: 5px;
+}
+
+.table_holder {
+  width: 70%;
+}
+
+.details {
+  padding: 5px 10px 5px 10px;
+  background-color: #FFE5F8;
+  border-radius: 20px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
